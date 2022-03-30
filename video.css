@@ -1,0 +1,1073 @@
+body {
+    position: relative;
+    margin: 0px;
+    font-family: 'Segoe UI symbol';
+    padding: 0px;
+    background: url("https://66.media.tumblr.com/28c0ffa7f2bc93e758a0c5f816043930/tumblr_pb03goDglC1uzwgsuo1_400.gifv") no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    z-index: 4;
+    color: rgb(226, 197, 43);
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    border-bottom: rgb(33, 230, 211) groove 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: 'Segoe UI Symbol';
+    padding-bottom: 3px;
+}
+
+label {
+    font-size: 37px;
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+    color: aqua;
+    margin-top: 0px;
+    color: rgb(2, 77, 146);
+    text-shadow: 1.1px 2px 1px rgb(0, 149, 208);
+    padding-right: 100px;
+}
+
+.logo {
+    height: 30px;
+    width: 37px;
+    margin-left: 20px;
+    margin-top: -12px;
+}
+
+a {
+    pointer-events: stroke;
+}
+
+button {
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+    background-color: transparent;
+    color: aqua;
+    margin: 10px 10px 10px 10px;
+    text-shadow: 2.5px 2.5px 2.5px red;
+    font-family: 'Segoe UI symbol';
+    font-weight: 600;
+    float: right;
+    border: none;
+}
+
+.fa-home {
+    margin-right: 1px;
+    color: moccasin;
+    text-shadow: none;
+}
+
+.fa-youtube {
+    color: red;
+    margin-left: 5px;
+}
+
+.fa-globe {
+    margin-right: 1px;
+    color: cornflowerblue;
+    text-shadow: none;
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: aqua;
+    text-shadow: 1.5px 1px 1px red;
+    text-align: start;
+    margin: 0px 5px 0px 5px;
+    padding-top: 30px;
+    padding: 10px 20px 0px 20px;
+    border-top: 2px dashed white;
+}
+
+    p:hover {
+        color: white;
+        text-shadow: none
+    }
+
+.last {
+    margin-right: 20px;
+}
+
+.fa-caret-square-o-right {
+    margin-right: 1px;
+    color: red;
+    text-shadow: none;
+}
+
+.fa-user {
+    margin-right: 1px;
+    color: tan;
+    text-shadow: none;
+}
+
+button:hover {
+    color: floralwhite;
+    text-shadow: none;
+}
+
+.a {
+    font-size: 24px;
+    position: fixed;
+    font-family: Candara;
+    width: 90%;
+    height: auto;
+    font-weight: 600;
+    background-color: rgba(41, 0, 49, 0.95);
+    text-align: center;
+    color: blanchedalmond;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 110px;
+    border: none;
+    border-radius: 25px;
+    border-bottom: rgb(33, 230, 211) groove 1.7px;
+    z-index: 2;
+}
+
+.b {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    margin: 0% 10% 0% 10%;
+    border: rgb(33, 230, 211) groove 2px;
+    text-align: center;
+    background-color: rgba(51, 24, 95, 0.21);
+    Border: none;
+    border-radius: 20px;
+    border-left: 1.7px ridge rgb(33, 230, 211);
+    border-right: 1.7px ridge rgb(33, 230, 211);
+    color: wheat;
+    margin-bottom: 2%;
+    font-size: 20px;
+    margin-top: 160px;
+}
+
+.c {
+    font-size: 20px;
+    font-weight: 600;
+    position: sticky;
+    width: 90%;
+    background-color: rgb(34, 13, 39);
+    text-align: center;
+    color: blanchedalmond;
+    margin: 0% 5% 0% 5%;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: rgb(33, 230, 211) groove 1.7px;
+    z-index: 3;
+}
+
+h2 {
+    font-weight: 600;
+    text-decoration: underline paleturquoise;
+    font-family: 'Segoe UI symbol';
+    text-align: center;
+}
+
+iframe {
+    height: 25vh;
+    width: 78%;
+    border: 4px ridge background;
+}
+.sidebar {
+            position:fixed;
+            background-color: whitesmoke;
+            border-radius: 30px;
+           border: 2px solid rgb(33, 230, 211);
+            box-shadow:2px 2px 2px solid red;
+            width: 50px;
+            z-index: 3;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 0px;
+            border-left-color: transparent;
+            margin-top: 350px;
+            padding-left: 1px;
+        }
+
+        .sidelogo {
+            height: 41PX;
+            width: 40Px;
+            margin: 5px 2px 5px 1.5px;
+        }
+@media only screen and (max-width:318px) {
+    label {
+        font-size: 27px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        height: 22px;
+        width: 25px;
+        margin-left: 10px;
+        MARGIN-TOP:-11PX;
+    }
+
+    .last {
+        margin-right: 15px;
+    }
+
+    button {
+        margin: 0PX 1.5px 0px 1.5px;
+        font-size: 12px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 72px;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+          .sidebar {
+                width: 8.5%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+            .sidelogo {
+                height: 18px;
+                width: 18px;
+                margin: 3px 2px 3px 1px;
+            }
+
+    .b {
+        margin-top: 105px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 7%;
+    }
+
+    .c {
+        font-size: 12px;
+        padding: 3px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 25%;
+        width: 87%;
+    }
+}
+
+@media only screen and (min-width:318px) and (max-width:350px) {
+    label {
+        font-size: 31px;
+        padding-right: 8px;
+    }
+
+    .logo {
+        height: 25px;
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .last {
+        margin-right: 10px;
+    }
+
+    button {
+        margin: 0PX 3px 0px 3px;
+        font-size: 13px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 78px;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+            .sidebar {
+                width: 8%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+            .sidelogo {
+                height: 19px;
+                width: 19px;
+                margin: 3px 1.5px 3px 1px;
+            }
+    .b {
+        margin-top: 120px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 8%;
+    }
+
+    .c {
+        font-size: 14px;
+        padding: 0px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: auto;
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 370px) {
+    label {
+        font-size: 37px;
+        padding-right: 20px;
+    }
+
+    .logo {
+        height: 29px;
+        width: 36px;
+        margin-left: 10px;
+        MARGIN-TOP:-20PX;
+    }
+
+    .last {
+        margin-right: 25px;
+    }
+
+    button {
+        margin: 0PX 5px 0px 5px;
+        font-size: 13px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 80px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .sidebar {
+                width: 8.7%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+    .sidelogo {
+                height: 21px;
+                width: 21px;
+                margin: 3px 1.5px 3px 1px;
+            }
+    .b {
+        margin-top: 125px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 7%;
+    }
+
+    .c {
+        font-size: 16px;
+        padding: 3px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: start;
+        margin: 3px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: auto;
+        width: 87%;
+    }
+}
+
+@media only screen and (min-width: 371px) and (max-width:400px) {
+    label {
+        font-size: 38px;
+        padding-right: 15px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 36px;
+        margin-left: 10px;
+        MARGIN-TOP:-21PX;
+    }
+
+    .last {
+        margin-right: 13.5px;
+    }
+
+    button {
+        margin: 0PX 3px 0px 3px;
+        font-size: 15px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 90px;
+        font-size: 19px;
+        margin-bottom: 0px;
+    }
+    .sidebar {
+                width: 8%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+            .sidelogo {
+                height: 21px;
+                width: 21px;
+                margin: 3px 1.5px 3px 1px;
+            }
+    .b {
+        margin-top: 135px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 6%;
+    }
+
+    .c {
+        font-size: 18px;
+        padding: 3px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 19vh;
+        width: 87%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width:433px) {
+    label {
+        font-size: 40px;
+        padding-right: 15px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 36px;
+        margin-left: 10px;
+        MARGIN-TOP:-22PX;
+    }
+
+    .last {
+        margin-right: 20px;
+    }
+
+    button {
+        margin: 0PX 3px 0px 3px;
+        font-size: 17px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+    .sidebar {
+                width: 8%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+            .sidelogo {
+                height: 23px;
+                width: 23px;
+                margin: 3px 1.5px 3px 1px;
+            }
+    .a {
+        padding-top: 95px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 145px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 6%;
+    }
+
+    .c {
+        font-size: 18px;
+        padding: 3px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14.5px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 434px) and (max-width:500px) {
+    label {
+        font-size: 36px;
+        padding-right: 100px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 36px;
+        margin-left: 22px;
+        MARGIN-TOP:-18PX;
+    }
+
+    .last {
+        margin-right: 15px;
+    }
+
+    button {
+        margin: 0PX 8px 0px 8px;
+        font-size: 17px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 90px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .sidebar {
+                width: 7%;
+                border-bottom-right-radius: 10pX;
+                border-top-right-radius: 10pX;
+            }
+
+            .sidelogo {
+                height: 22px;
+                width: 22px;
+                margin: 3px 1.5px 3px 1.5px;
+            }
+    .b {
+        margin-top: 130px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 6%;
+    }
+
+    .c {
+        font-size: 18px;
+        padding: 3px 0px 8px 0px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 18vh;
+        width: 87%;
+    }
+}
+@media screen and (min-width:501px) and (max-width: 699px) {
+    .logo {
+        height: 32px;
+        width: 38px;
+        margin-left: 20px;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width: 800px) {
+    label {
+        font-size: 35px;
+        padding-right: 0px;
+    }
+
+    .header {
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 34px;
+        margin-left: 20px;
+          margin-top: -16px;
+    }
+
+    .last {
+        margin-right: 10px;
+    }
+
+    button {
+        margin: 10PX 2px 0px 2px;
+        font-size: 16.5px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 58px;
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 110px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    .c {
+        font-size: 19px;
+        margin-bottom: 0PX;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 270PX;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width: 900px) {
+    label {
+        font-size: 34px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .header {
+        padding-bottom: 0;
+        MARGIN-BOTTOM:0; 
+    }
+
+    .logo {
+        height: 28px;
+        width: 34px;
+        margin-left: 20px;
+        margin-top: -15px;
+    }
+
+    .last {
+        margin-right: 10px;
+    }
+
+    button {
+        margin: 9PX 4px 13px 4px;
+        font-size: 20px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+    .a {
+        padding-top: 55px;
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 110px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    .c {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 21px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 300PX;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width: 1000px) {
+    label {
+        font-size: 37px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .header {
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        height: 31px;
+        width: 38px;
+        margin-left: 20px;
+        margin-top: -14px;
+    }
+
+    .last {
+        margin-right: 20px;
+    }
+
+    button {
+        margin: 9PX 4px 13px 4px;
+        font-size: 21px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 60px;
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .b {
+        margin-top: 123px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    .c {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 21px;
+        text-align: start;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1.4px 1.4px 1.4px red;
+    }
+
+    iframe {
+        height: 320PX;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width: 1250px) {
+    label {
+        font-size: 45px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .logo {
+        height: 37px;
+        width: 44px;
+        margin-left: 20px;
+          margin-top: -20px;
+    }
+
+    .last {
+        margin-right: 30px;
+    }
+
+    button {
+        margin: 14PX 4px 8px 4px;
+        font-size: 23px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 70px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 140px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    .c {
+        margin-bottom: 0PX;
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 23px;
+        text-align: start;
+        margin: 0px 5px 0px 10px;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    iframe {
+        height: 37vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width: 1500px) {
+    label {
+        font-size: 44px;
+        margin-right: 0px;
+    }
+
+    .header {
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        height: 36px;
+        width: 43px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .last {
+        margin-right: 30px;
+    }
+
+    button {
+        margin: 12PX 4px 10px 4px;
+        font-size: 26px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 70px;
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 150px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    .c {
+        margin-bottom: 0PX;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 27px;
+        text-align: start;
+        margin: 0px 5px 0px 10px;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    iframe {
+        height: 46vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1501px) and (max-width: 1700px) {
+    label {
+        font-size: 45px;
+        margin-right: 0px;
+    }
+
+    .header {
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        height: 37px;
+        width: 44px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .last {
+        margin-right: 30px;
+    }
+
+    button {
+        margin: 13PX 10px 8px 10px;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 68px;
+        font-size: 35px;
+    }
+
+    .b {
+        margin-top: 145px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .c {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 24px;
+        text-align: start;
+        margin: 0px 5px 0px 10px;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    iframe {
+        height: 65vh;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1701px) {
+    label {
+        font-size: 50px;
+        margin-right: 0px;
+    }
+
+    .header {
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        height: 38px;
+        width: 45px;
+        margin-left: 20px;
+        MARGIN-TOP:-25PX;
+    }
+
+    .last {
+        margin-right: 30px;
+    }
+
+    button {
+        margin: 14PX 8px 0px 8px;
+        font-size: 28px;
+        justify-content: center;
+    }
+
+    .a {
+        padding-top: 78px;
+        font-size: 34px;
+        margin-bottom: 0px;
+    }
+
+    .b {
+        margin-top: 158px;
+        border: none;
+        border-radius: 20px;
+        border-left: 1.7px ridge rgb(33, 230, 211);
+        border-right: 1.7px ridge rgb(33, 230, 211);
+        margin-bottom: 2%;
+    }
+
+    h2, .c {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 25px;
+        text-align: start;
+        margin: 0px 5px 0px 10px;
+        text-shadow: 2px 2px 2px red;
+    }
+
+    iframe {
+        height: 65vh;
+        width: 75%;
+    }
+}
